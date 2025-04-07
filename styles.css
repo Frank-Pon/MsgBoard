@@ -1,0 +1,75 @@
+body{
+    background-color: burlywood;
+    display: flex;
+    justify-content: center;
+}
+.msgall{
+    width:450px;
+    background-color: cornsilk;
+    padding: 10px;
+    margin-top: 50px;
+    border-radius: 15px;
+    box-shadow: 10px 10px 20px  rgba(78, 74, 74, 0.205);
+}
+
+.textarea{
+    display: flex;
+    overflow: hidden;  
+}
+.text{
+    flex-grow: 1;
+    border:none ;
+    outline: none;
+    resize: none;
+    height:75px;
+    border-radius: 15px;
+    padding: 15px;
+    margin: 10px 15px;
+    font-size: 12pt;
+}
+.text::placeholder {
+    font-size: 12pt;
+}
+button:not(.del){
+    background-color: darkorange;
+    color: azure;
+    border: none;
+    padding:10px 15px;
+    margin-left: 5px;
+    border-radius:5px ;
+}
+h2{
+    text-align: center;
+}
+.delbut{
+    display: flex;
+    padding: 5px;
+    margin: 5px;
+}
+.delall,.send{
+    flex-grow: 1;  
+}
+.msg_box{
+    list-style-type: none;
+    padding: 0;
+}
+.msg_box li{
+    padding: 15px;
+    margin: 15px;
+    border-bottom: 1px solid #ff721470;
+    display: flex;
+    justify-content: space-between;
+}
+.del{
+    border: none;
+    background: none;
+    margin: 10px;
+    opacity: 0.35;
+}
+button:hover{
+    cursor: pointer;
+    opacity: 1;
+}
+button:not(.del):hover{
+    background-color: rgb(236, 130, 0);
+}
