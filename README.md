@@ -46,7 +46,9 @@
 
 在問題解決之後看到美觀的畫面心情愉悅而且成就感爆棚!
 
-![畫面截圖](index.png)
-![畫面截圖](send.png)
-![畫面截圖](del.png)
-![畫面截圖](alldel.png)
+![畫面截圖](screenshot/index.png)
+![畫面截圖](screenshot/send.png)
+![畫面截圖](screenshot/del.png)
+![畫面截圖](screenshot/alldel.png)
+
+
