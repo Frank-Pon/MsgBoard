@@ -54,17 +54,16 @@ h2{
     padding: 0;
 }
 .msg_box li{
-    padding: 15px;
-    margin: 15px;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
     border-bottom: 1px solid #ff721470;
     display: flex;
     justify-content: space-between;
-}
-.del{
-    border: none;
-    background: none;
-    margin: 10px;
-    opacity: 0.35;
+    align-items: center;
 }
 button:hover{
     cursor: pointer;
@@ -72,4 +71,31 @@ button:hover{
 }
 button:not(.del):hover{
     background-color: rgb(236, 130, 0);
+}
+
+.del{
+    border: none;
+    background: none;
+    margin: 10px;
+    opacity: 0.35;
+}
+.msg_footer{
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+    gap: 10px;
+    margin-top: auto;
+}
+.msg_content{
+    display: flex;
+    max-width:60%;
+    word-wrap: break-word;
+    word-break: break-word;
+    margin-bottom: 8px;
+    padding-bottom:15px ;
+    justify-content:flex-end;
+}
+.timestamp{
+    font-size: 8pt;
+    opacity: 0.35;
 }
