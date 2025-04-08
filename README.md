@@ -50,5 +50,3 @@
 ![畫面截圖](screenshot/send.png)
 ![畫面截圖](screenshot/del.png)
 ![畫面截圖](screenshot/alldel.png)
-
-
